@@ -47,13 +47,13 @@ export default function Home() {
 
       <div className={styles.grid}>
         <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/static"
           className={styles.card}
-          target="_blank"
+          // target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
+            Static <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
             Find in-depth information about Next.js features and API.
@@ -61,25 +61,53 @@ export default function Home() {
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/server"
           className={styles.card}
-          target="_blank"
+          // target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
+            Server <span>-&gt;</span>
           </h2>
           <p className={inter.className}>Explore the Next.js 13 playground.</p>
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/client"
           className={styles.card}
-          target="_blank"
+          // target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
+            Client <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>
+            Instantly deploy your Next.js site to a shareable URL with Vercel.
+          </p>
+        </a>
+
+        <a
+          href="/parallel"
+          className={styles.card}
+          // target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={inter.className}>
+            Parallel <span>-&gt;</span>
+          </h2>
+          <p className={inter.className}>
+            Instantly deploy your Next.js site to a shareable URL with Vercel.
+          </p>
+        </a>
+
+        <a
+          href="/sequential"
+          className={styles.card}
+          // target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={inter.className}>
+            Sequential <span>-&gt;</span>
           </h2>
           <p className={inter.className}>
             Instantly deploy your Next.js site to a shareable URL with Vercel.
