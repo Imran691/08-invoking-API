@@ -7,7 +7,7 @@ type Book = {
     id: number,
     name: string,
     type: string,
-    availabe:boolean,
+    available:boolean,
   }
 
 async function getFiction() {

@@ -8,7 +8,7 @@ type Book = {
     id: number,
     name: string,
     type: string,
-    availabe:boolean,
+    available:boolean,
   }
 
 async function getFiction() {
@@ -29,7 +29,7 @@ export default async function Parallel() {
     const fictionBooks = getFiction();
     const nonFictionBooks = getNonfiction();
 
-    //above functions are async but we haven't used await to call
+    //above functions are async but we haven't used await to call these functions
     // for that we add following line
     // added both function in same promise for parallel rendering
     const[fiction, nonFiction] = await Promise.all([
